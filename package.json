@@ -1,0 +1,15 @@
+{
+  "name": "declinism",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "bun run api/feed.mjs"
+  },
+  "dependencies": {
+    "comma-number": "^2.1.0",
+    "country-list": "^2.3.0",
+    "ical-generator": "^8.0.1",
+    "lodash-es": "^4.17.21",
+    "title-case": "^4.3.2"
+  }
+}
