@@ -8,3 +8,5 @@ An auto-generated calendar of fake climate doomerism to add chaos to your life.
 bun install
 bun start
 ```
+
+Then, add `http://localhost:6666` as a calendar subscription!
