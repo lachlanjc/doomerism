@@ -124,7 +124,7 @@ const getRandomCountry = () => sample(getNames()).split(",")[0];
 const getAllDayEventName = () => {
   return sample([
     "Orange Day",
-    `Anniversary of ${comma(random(2000, 2022))} Orange Day in ${getRandomCity()}`,
+    `Anniversary of ${random(2000, 2022)} Orange Day in ${getRandomCity()}`,
     `${comma(random(4, 49))}th Anniversary of 100-Year Flood in ${getRandomCity()}`,
     `${comma(random(4, 49))}th Anniversary of Deadly ${getRandomCountry()} Wildfires`,
     `${comma(random(2, 6))} Bird Species Went Extinct`,
@@ -258,8 +258,8 @@ const getEventName = () => {
     `Oil Spill Devastates Coastline in ${getRandomCity()}`,
     `Coal Ash Dumped in ${getRandomCity()} Water Supply`,
     `Fracking Chemicals Poison ${getRandomCity()} Water Supply`,
-    `Another ${comma(random(3, 999))}K Tons of Plastic get shipped to the moon`,
-    `Another ${comma(random(3, 999))}K Tons of Plastic get shipped to Mars`,
+    `Another ${random(3, 999)}K Tons of Plastic get shipped to the moon`,
+    `Another ${random(3, 999)}K Tons of Plastic get shipped to Mars`,
     `Record Low Snowpack Recorded in Mountains of ${getRandomCountry()}`,
     `${comma(random(3, 999))} Affected by Toxic Waste Spill in ${getRandomCountry()}`,
     `${comma(random(3, 999))} Evacuate as Volcanic Eruption Destroys ${getRandomCountry()}`,
